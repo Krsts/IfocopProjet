@@ -1,5 +1,6 @@
 <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
   <ngb-panel title="Simple">
+    
     <ng-template ngbPanelContent>
       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
       aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
@@ -33,4 +34,7 @@
     </ng-template>
   </ngb-panel>
 </ngb-accordion>
- 
+  <span><img src="http://www.thorvaldurorn.com/uploads/1/1/9/8/11986199/2396822_orig.jpg" alt="HTML5 Doctor Logo" width="84" height="84"/></span>
+  <ngb-rating [(rate)]="currentRate"></ngb-rating>
+  <hr>
+  <pre>Rate: <b>{{currentRate}}</b></pre>

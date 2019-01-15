@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppartementComponent implements OnInit {
 
-  
+  rate = 8;
 
   constructor() { }
 
