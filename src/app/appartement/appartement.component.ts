@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppartementComponent implements OnInit {
 
-  rate = 8;
+  image = "https://picsum.photos/900/500?random&t=1"
 
   constructor() { }
 
   ngOnInit() {
   }
-source: string ="Hello";
+
 }

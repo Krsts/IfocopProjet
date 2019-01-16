@@ -1,4 +1,23 @@
-<ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+<div class="col-6 border appartthumbnail">
+  <div>
+    <img class="col-12" (click)="isCollapsed = !isCollapsed" [src]="image" alt="Rdm Photo" width="320px" height="240px" >
+
+  </div>
+<div id="collapseExample" [ngbCollapse]="isCollapsed">
+  <div class="card">
+    <div class="card-body col-12">
+      You can collapse this card by clicking Toggle
+    </div>
+  </div>
+</div>
+</div>
+
+
+ <!-- <button type="button" class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed"
+          [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample"> -->
+
+
+<!-- <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
   <ngb-panel title="Simple">
     
     <ng-template ngbPanelContent>
@@ -37,4 +56,4 @@
   <span><img src="http://www.thorvaldurorn.com/uploads/1/1/9/8/11986199/2396822_orig.jpg" alt="HTML5 Doctor Logo" width="84" height="84"/></span>
   <ngb-rating [(rate)]="currentRate"></ngb-rating>
   <hr>
-  <pre>Rate: <b>{{currentRate}}</b></pre>
+  <pre>Rate: <b>{{currentRate}}</b></pre> -->
