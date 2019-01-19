@@ -9,11 +9,13 @@ import { HelloComponent } from './hello.component';
 import { AppartementComponent } from './appartement/appartement.component';
 
 import { CarouselComponent } from './carousel/carousel.component';
+import { AppartementsComponent } from './appartements/appartements.component';
+import { SelecteurComponent } from './selecteur/selecteur.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, NgbModule,
    NgbPaginationModule, NgbAlertModule ],
-  declarations: [ AppComponent, HelloComponent, AppartementComponent, CarouselComponent ],
+  declarations: [ AppComponent, HelloComponent, AppartementComponent, CarouselComponent, AppartementsComponent, SelecteurComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

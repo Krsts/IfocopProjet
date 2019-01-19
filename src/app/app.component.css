@@ -1,8 +1,17 @@
-
-p {
-  font-family: Lato;
+.bodycontainer{
+  justify-content:center;
+  display:flex;
+  border: 3px red dotted;
 }
 
-.lol {
-  float:right;
+.selecteurcontainer {
+  text-align: left;
+  margin-left:0;
+  padding-left:0;
+  display:inline-block;
+  border: 3px dotted green;
+}
+
+.appartementscontainer{
+  text-align: center;
 }

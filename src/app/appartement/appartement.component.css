@@ -1,9 +1,28 @@
-.appartthumbnail {
+.appart_container {
     display: inline-block;
     margin-top: 24px;
+    border: 6px dashed black;
+    padding: 0;
+    margin-left:0;
+    margin-right:2%;
+    margin-left:2%;
+    max-width: 420px;
     
 }
 
-.card {
+.appart_thumbnail {
+    object-fit: fill;
+    padding:0;
+    max-width: 420px;
     
+}
+
+.appart-block {
+    width: 80%;
+    display:inline-block;
+}
+
+.text_in_block{
+    
+    padding-right: 20%;
 }

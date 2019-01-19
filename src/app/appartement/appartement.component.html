@@ -1,9 +1,10 @@
-<div class="col-6 border appartthumbnail">
+<!-- <div class="col-xs-12 col-s-12 col-md-12 col-lg-4 appart_container"> -->
+<div class="dxs-inline d-sm-none appart_container">
   <div>
-    <img class="col-12" (click)="isCollapsed = !isCollapsed" [src]="image" alt="Rdm Photo" width="320px" height="240px" >
+      <img class="col-12 appart_thumbnail" (click)="isCollapsed = !isCollapsed" [src]="imageGen()" alt="Rdm Photo" width="480px" height="320px" >
 
   </div>
-<div id="collapseExample" [ngbCollapse]="isCollapsed">
+<div class="d-sm-block d-md-none" id="collapseExample" [ngbCollapse]="isCollapsed">
   <div class="card">
     <div class="card-body col-12">
       You can collapse this card by clicking Toggle
@@ -12,6 +13,22 @@
 </div>
 </div>
 
+<div class="container-fluid d-none d-sm-block appart_block">
+  <div class="row">
+    <div class="text_in_block"
+      [ngbCollapse]="isCollapsed">
+      <div class="card">
+        <div class="card-body col">
+          {{textgen()}}
+        </div>
+      </div>
+      </div>
+<div>
+    <img class="col appart_thumbnail" (click)="isCollapsed = !isCollapsed" [src]="imageGen()" alt="Rdm Photo" width="480px" height="320px" >
+</div>
+  </div>
+</div>
+<hr>
 
  <!-- <button type="button" class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed"
           [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample"> -->

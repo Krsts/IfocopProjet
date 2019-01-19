@@ -4,3 +4,10 @@
 .carousel-item{
     text-align: center;
 }
+
+body {
+    position: relative;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
