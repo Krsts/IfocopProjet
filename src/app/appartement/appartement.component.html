@@ -15,19 +15,24 @@
 
 <div class="container-fluid d-none d-sm-block appart_block">
   <div class="row">
-    <div class="text_in_block"
+    <div class="title_in_block"
       [ngbCollapse]="isCollapsed">
       <div class="card">
-        <div class="card-body col">
+        <div class="card-body col-1">
           {{textgen()}}
+        </div>
+      </div>
+        <div class="text_in_block col-5">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus quam illum mollitia reiciendis, dicta necessitatibus velit maxime, voluptatum delectus id corrupti asperiores! Similique aspernatur consectetur non minima perspiciatis quae exercitationem!
+          Quam recusandae ipsa nostrum numquam quis corrupti praesentium itaque repudiandae deserunt amet similique laboriosam provident possimus aliquam illo consequatur, reiciendis esse est nam? Nesciunt iste, explicabo in nobis fugiat beatae!
+          Corrupti ratione odio, accusamus alias illo tenetur doloribus eos ab eum sit possimus autem vero aperiam rem dolorum delectus doloremque est omnis dolor! Ab, repellat molestiae unde eius aspernatur vero!
         </div>
       </div>
       </div>
 <div>
-    <img class="col appart_thumbnail" (click)="isCollapsed = !isCollapsed" [src]="imageGen()" alt="Rdm Photo" width="480px" height="320px" >
+    <img class="col-md-4 ml-auto appart_thumbnail" (click)="isCollapsed = !isCollapsed" [src]="imageGen()" alt="Rdm Photo" width="480px" height="320px" >
 </div>
   </div>
-</div>
 <hr>
 
  <!-- <button type="button" class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed"

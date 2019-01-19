@@ -14,6 +14,7 @@
     object-fit: fill;
     padding:0;
     max-width: 420px;
+    /* position: static; */
     
 }
 
@@ -22,7 +23,16 @@
     display:inline-block;
 }
 
-.text_in_block{
-    
-    padding-right: 20%;
+.title_in_block{
+    /* width: 24px; */
+    /* padding-left: 24px; */
+    padding-bottom:60px;
+    display:inline-block;
+}
+
+.text_in_block {
+    /* width: 320px; */
+    /* padding-left: 120px; */
+    display:inline-block;
+    /* margin-left: 60px; */
 }
