@@ -6,7 +6,7 @@ import {NgbModule, NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-b
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { AppartementComponent } from './appartement/appartement.component';
+import { AppartementViewComponent } from './appartement/appartement-view.component';
 
 import { CarouselComponent } from './carousel/carousel.component';
 import { AppartementsComponent } from './appartements/appartements.component';
@@ -15,7 +15,7 @@ import { SelecteurComponent } from './selecteur/selecteur.component';
 @NgModule({
   imports:      [ BrowserModule, FormsModule, NgbModule,
    NgbPaginationModule, NgbAlertModule ],
-  declarations: [ AppComponent, HelloComponent, AppartementComponent, CarouselComponent, AppartementsComponent, SelecteurComponent ],
+  declarations: [ AppComponent, HelloComponent, AppartementViewComponent, CarouselComponent, AppartementsComponent, SelecteurComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
