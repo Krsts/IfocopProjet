@@ -1,4 +1,5 @@
 export class Appartement {
+  name: never;
 constructor( 
     public nom : string,
     // public adresse : string,
@@ -19,9 +20,13 @@ constructor(
     // public types_devenements: string,
     // public fumeur: boolean
 
+
     public img1: string,
-    // public img2: string,
-    // public img3: string,
-    // public img4: string,
+
+    // Arguments Facultatifs
+
+    public img2?: string,
+    public img3?: string,
+    public img4?: string,
 ){}
 }
